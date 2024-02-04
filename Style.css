@@ -1,0 +1,429 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    color:aliceblue;
+    
+}
+/*---------------------------INTR0---------------------------*/
+.intro{
+    
+    position: relative;
+    background: black;
+}
+.header{
+    padding-top: 2%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1%;padding-left:7ch ;
+    padding-right:5ch ;
+    position: fixed; 
+    overflow: auto;
+    width: 95%;
+}
+nav h3 i{
+    color:rgb(12, 113, 195); 
+}
+nav h3 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(12, 113, 195);
+    font-size: 1.3rem;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 27px;letter-spacing: .3px;
+    align-items: center; 
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.8ch; 
+    color: rgb(12, 113, 195);padding-right: 1ch;
+}
+nav ul li a:hover{
+    color:white;
+    transition: ease-in .2s;
+}
+.main-content{
+    text-align: left;
+    margin:10ch;
+    margin-top: 16ch;
+}
+.main-content span{
+    color:rgb(12, 113, 195);
+}
+.main{
+    display: grid;
+    padding: 0%;margin: 0%;
+}
+.main h4 {
+    font-size:2em;
+    margin-bottom:3%;  
+    margin-right: 3px;
+}
+.main h1{
+    font-size:4em;
+    margin-bottom:3%; 
+    letter-spacing: 2px;
+}
+.main h5{
+    font-size:1.5em;
+}
+.main-img{
+    margin-left: 65%;
+    margin-top: -37%;
+}
+.btn2 {
+    background: none;
+    color:rgb(12, 113, 195) ;
+    padding: 8px;
+    margin-top: 3%;
+    border: 2px solid rgb(12, 113, 195) ;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn2 a{
+    color:rgb(12, 113, 195) ;
+    text-decoration: none;
+}
+.btn2 a:hover{
+    color:#fff;
+}
+.btn2:hover{
+    color:#fff;
+    background:rgb(12, 113, 195);
+    transition: all .2s ease-in;
+    transform: scale(0.90);
+    opacity:calc(3) ;
+}
+/*--------------------------------------------------------------------------------*/
+/*-----------------------------About----------------------*/
+#about{
+    padding:80px 0;
+    background: rgb(8, 8, 8);
+    padding-top: 8ch;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.about-col-1{
+    flex-basis:25%;
+    margin-left: 9%;
+}
+.about-col-1 img{
+    width:100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 58%;
+    margin-right: 3%;
+}
+.about-col-2 p{
+    margin-top: 5%;
+    margin-right: 4%;
+}
+.sub-title{
+    font-size:2.5em;
+    color:#fff;
+}
+.sub-title{
+    color: rgb(12, 113, 195);
+}
+.tab-titles{
+    display:flex;
+    padding-bottom: 2.5ch;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size:18px;
+    font-weight:500;
+    cursor: pointer;
+    position:relative;
+}
+.tab-links::after{
+    content:'';
+    width:0;
+    height:3px;
+    background: rgb(12, 113, 195);
+    position:absolute;
+    left:0; bottom:-8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width:50%;
+}
+.tab-contents ul li{
+    list-style:circle;
+    margin:20px 0;
+}
+.tab-contents ul li span{
+    color: rgb(12, 113, 195);
+    font-size:20px;
+}
+.tab-contents ul li h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/*---------------------------------skilss--------------------------*/
+.skill{
+    width:100%;
+    background:black ;
+    padding-bottom: 4%;
+    
+}
+.header h1{
+    color:white;;
+    font-size: 45px;
+    width:1130px;
+    margin: 10px auto; 
+    margin-top: 0%; margin-bottom: 4ch;
+    text-align: center;
+    padding-top: 4ch;padding-left: 1ch;
+}
+.header p{
+    width:1150px;
+    margin-left: 4ch;
+    margin-bottom: 7ch; margin-top: -9ch;
+    text-align: center; padding-left: 1ch;
+}
+.skill span {
+    color: rgb(12, 113, 195);
+}
+.skill-items{
+    display: flex;
+    justify-content: space-around;
+}
+.logo i{
+    font-size: 7ch;
+    color: rgb(12, 113, 195) ;
+}
+.skill .Box{
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 10ch;
+    margin-top: 4ch;
+    padding: 15px 20px;
+    border:#292626 solid 5px;
+    border-radius: 10px;
+    margin-left: 1ch; margin-top: 2ch;
+    transition:all .45s ease ;
+}
+.skill .Box:hover{
+    transform: translateY(-20px);
+    cursor: pointer; color: none;
+}
+.icons h5{
+    font-size: 2ch;
+}
+
+/*-----------------------------------Projects----------------------------------------*/
+.services{
+    background: rgb(8, 8, 8);
+    padding: 8%;
+}
+.main-text{
+    text-align: center;
+}
+.main-text span{
+    color: rgb(12, 113, 195);
+}
+.main-text p{
+    font-size: 15px;
+    margin-bottom: 15px;margin-top: 10px;
+}
+.main-text h2{
+    font-size:2.5em ;
+    line-height:1;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap:2.5rem;
+    margin-top:3rem ;
+    text-align: center;  
+}
+.card{
+    padding: 15px 20px;
+    border:#292626 solid 5px;
+    border-radius: 10px;
+    margin-left: 1ch; margin-top: 2ch;
+    transition:all .45s ease ;
+}
+.card i h3 p:hover{
+    background:rgb(12, 113, 195)  ;
+}
+.s-icons i{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#4f4b4b
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.card p{
+    font-size:1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.read{
+    display: inline-block;
+    padding: 8px 18px;
+    background:#323030;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all .45s ease; 
+}
+.read:hover{
+    letter-spacing: 1px;
+    color: ;
+}
+.card:hover{
+    transform: translateY(-20px);
+    cursor: pointer; color: none;
+    background:rgb(12, 113, 195) ;
+}
+/*--------------------------------------------------------------------------------------------------
+
+/*--------------------------------------Contact form style--------------------*/
+.contact{
+    background-color: black;
+    padding-top: 10ch;
+    height:90%;  
+    min-height: 90vh;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap:6rem;
+    padding-left: 17ch;
+}
+
+.contact-form form input, form textarea{
+    width:85%;
+    padding:15px;
+    border:none;
+    color: antiquewhite;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+    background: #292626;
+}
+.contact-form form textarea{
+    padding:5px;
+}
+.contact-text h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    color:white;;
+}
+.contact-text{
+    margin-top: -3ch;
+}
+.contact-text span{
+    color: rgb(12, 113, 195);
+}
+.contact-text h4 a{
+    color: rgb(79, 104, 226);
+    margin-left: 11%;
+    margin: 6%;
+    margin-left: 11%;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+.contact-icons{
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    letter-spacing: 1ch;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.contact-icons i{
+    color:rgb(12, 113, 195);
+}
+.contact-icons i:hover{
+    transform: translateY(-14px);
+    transition:all .45s ease;
+    color:rgb(212, 221, 224);
+}
+
+.contact-form button{
+    background: none;
+    color:rgb(12, 113, 195) ;
+    padding: 5px;
+    margin-top: 4%;
+    border: 2px solid rgb(12, 113, 195) ;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 14ch;
+}
+.contact-form button:hover{
+    color:#fff;
+    background:rgb(12, 113, 195);
+    transition: all .2s ease-in;
+    transform: scale(0.90);
+}
+
+/*-----------------------Hire me-------------------------------------*/
+.freelance{
+    padding-bottom: 3%;
+    background: rgb(8, 8, 8);
+}
+.hire{
+    text-align: center;  
+    padding-bottom: 1.5%;
+}
+.text h1{
+    font-size: 3ch;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    margin-left: 2.5ch;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.text h1 i{
+    font-size: 2.5ch;
+}
+.text p{
+    margin-bottom: 4%;
+    font-weight: bolder;
+    transition: none;
+    color: none; font-family: 'Courier New', Courier, monospace;
+}
+.hire span{
+    color:rgb(12, 113, 195)  ;
+}
+
+.social-icons{
+    padding-bottom:5%;
+    justify-content: space-around;
+    font-size: 2rem;
+    letter-spacing: 1ch;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+.social-icons i:hover{
+    transform: translateY(-20px);
+    transition:all .45s ease;
+    
+}
+/*-------------------------------------------------------------------------------*/
+
+
